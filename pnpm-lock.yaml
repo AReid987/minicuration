@@ -26,10 +26,10 @@ importers:
         version: 20.17.16
       '@types/react':
         specifier: ^19
-        version: 19.0.8
+        version: 19.1.5
       '@types/react-dom':
         specifier: ^19
-        version: 19.0.3(@types/react@19.0.8)
+        version: 19.0.3(@types/react@19.1.5)
       eslint:
         specifier: ^9
         version: 9.19.0(jiti@1.21.7)
@@ -339,8 +339,8 @@ packages:
     peerDependencies:
       '@types/react': ^19.0.0
 
-  '@types/react@19.0.8':
-    resolution: {integrity: sha512-9P/o1IGdfmQxrujGbIMDyYaaCykhLKc0NGCtYcECNUr9UAaDe4gwvV9bR6tvd5Br1SG0j+PBpbKr2UYY8CwqSw==}
+  '@types/react@19.1.5':
+    resolution: {integrity: sha512-piErsCVVbpMMT2r7wbawdZsq4xMvIAhQuac2gedQHysu1TZYEigE6pnFfgZT+/jQnrRuF5r+SHzuehFjfRjr4g==}
 
   '@typescript-eslint/eslint-plugin@8.22.0':
     resolution: {integrity: sha512-4Uta6REnz/xEJMvwf72wdUnC3rr4jAQf5jnTkeRQ9b6soxLxhDEbS/pfMPoJLDfFPNVRdryqWUIV/2GZzDJFZw==}
@@ -1904,11 +1904,11 @@ snapshots:
     dependencies:
       undici-types: 6.19.8
 
-  '@types/react-dom@19.0.3(@types/react@19.0.8)':
+  '@types/react-dom@19.0.3(@types/react@19.1.5)':
     dependencies:
-      '@types/react': 19.0.8
+      '@types/react': 19.1.5
 
-  '@types/react@19.0.8':
+  '@types/react@19.1.5':
     dependencies:
       csstype: 3.1.3
 
