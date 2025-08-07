@@ -14,5 +14,5 @@ pyee==12.0.0
     # via playwright
 typing-extensions==4.12.2
     # via pyee
-uv==0.5.24
+uv==0.8.6
     # via aider-install
